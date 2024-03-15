@@ -1,0 +1,127 @@
+ <!-- return (
+    <div className="App">
+      <Tabs defaultTab="vertical-tab-one" vertical>
+        <TabList>
+          <Tab tabFor="vertical-tab-one">Tab 1</Tab>
+          <Tab tabFor="vertical-tab-two">Tab 2</Tab>
+          <Tab tabFor="vertical-tab-three">Tab 3</Tab>
+        </TabList>
+        <TabPanel tabId="vertical-tab-one">
+          <p>Tab 1 content</p>
+        </TabPanel>
+        <TabPanel tabId="vertical-tab-two">
+          <p>Tab 2 content</p>
+        </TabPanel>
+        <TabPanel tabId="vertical-tab-three">
+          <p>Tab 3 content</p>
+        </TabPanel>
+      </Tabs>
+    </div>
+  );
+
+
+
+  {/* <div className="VSS-Outerbox">
+    <div className="schBody-right">
+      <div className="VSS-tophead">
+        <div className="details-img">
+          <img
+            src="viewSch.png"
+            style={{ opacity: "60%", height: "6vh" }}
+          />
+        </div>
+        <div className="sp" style={{ paddingBottom: "5vh" }}>
+          <div className="CE-heading">Schdeules</div>
+        </div>
+      </div>
+
+      <div style={{ marginLeft: "-3vw" }}>
+        <div className="CE-event_title">
+          <label class="CE-label" placeholder="Schedule Name">
+            Schedule Name
+          </label>
+
+          <input
+            disabled
+            placeholder="Name"
+            type="text"
+            class="VSS-input-title"
+            value={scheduletitle}
+          ></input>
+        </div>
+        <div className="CS-Schedule">
+          <div className="CE-session">
+            <label class="CE-label">Schedule Begin</label>
+
+            <div className="CE-box">
+              <input
+                disabled
+                class="CE-input_sch"
+                placeholder={startDate}
+                type="date"
+                value={startDate}
+                onChange={(e) => setEndDate(e.target.value)}
+              />
+
+              <input
+                disabled
+                class="CE-input_sch"
+                placeholder=" Event Start"
+                type="time"
+              />
+            </div>
+          </div>
+
+          <div className="CE-session">
+            <label class="CE-label">Schedule End</label>
+            <div className="CE-box">
+              <input
+                disabled
+                class="CE-input_sch"
+                placeholder={endDate}
+                type="date"
+                value={endDate}
+                onChange={(e) => setEndDate(e.target.value)}
+              />
+              <input
+                disabled
+                class="CE-input_sch"
+                placeholder=" Event Start"
+                type="time"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="CE-event_title">
+          <label class="CE-label" placeholder="Schedule Name">
+            Location
+          </label>
+
+          <input
+            disabled
+            placeholder="Location"
+            type="text"
+            class="VSS-input-title"
+            value={Venue}
+            onChange={(e) => setVenue(e.target.value)}
+          />
+        </div>
+
+        <div className="VSS-event_desc">
+          <label htmlFor="Event Description" class="CE-label">
+            Event Description
+          </label>
+
+          <textarea
+            disabled
+            class="VSS-textarea-desc"
+            placeholder=" Event Description"
+            type="text"
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
+          />
+        </div>
+      </div>
+    </div>
+  </div> */} -->
